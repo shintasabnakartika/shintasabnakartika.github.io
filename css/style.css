@@ -1,18 +1,17 @@
 html {
-    position: relative;
+  position: relative;
 }
 
 body {
-    margin-bottom: 120px;
-    margin-top: 35px;
+  margin-bottom: 120px;
+  margin-top: 35px;
 }
 
-
 @font-face {
-    font-family: 'oswaldlight';
-    src: url(../fonts/oswald-light-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "oswaldlight";
+  src: url(../fonts/oswald-light-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* #navbar-brand {
@@ -23,7 +22,6 @@ body {
     color: rgb(203, 200, 200);
 } */
 
-
 /* a #navbar-nav {
     color: #eaeaea;
 }
@@ -32,106 +30,142 @@ a #navbar-nav:hover {
     color: rgb(203, 200, 200);
 } */
 
-
+/* JUMBOTRON */
 .jumbotron {
-    height: 415px;
-    background-image: url('../img/bg9.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 0 -300px;
-    color: #eaeaea;
-    margin-bottom: 0;
-    overflow: hidden;
+  height: 415px;
+  background-image: url("../img/bg9.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -300px;
+  color: #eaeaea;
+  margin-bottom: 0;
+  overflow: hidden;
 }
 
 .jumbotron img {
-    width: 200px;
-    border: 5px solid #eaeaea;
+  width: 200px;
+  border: 5px solid #eaeaea;
 }
 
-.jumbotron h1, .jumbotron p {
-    text-shadow: 1px 1px 10px rgba(0,0,0.5);
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0.5);
 }
-
+/* AKHIR JUMBOTRON */
 
 hr {
-    width: 250px;
-    border-top: 3px solid #727171;
+  width: 250px;
+  border-top: 3px solid #727171;
 }
 
+/* ABOUT */
 .about {
-    min-height: 400px;
-    margin-top: 0;
-    padding-top: 1em;
-    background-color: #eee;
+  min-height: 400px;
+  margin-top: 0;
+  padding-top: 1em;
+  background-color: #eee;
 }
 
 .about hr {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-.pkiri, .pkanan {
-    opacity: 0;
-    transform: translate(-50px, 0) rotate(15deg);
-    transition: 1s;
+.garisbawah {
+  border-bottom: 3px solid #969696;
+  width: 50%;
+}
+
+.bawah {
+  border-bottom: 3px solid #969696;
+  width: 80%;
+}
+
+.profil {
+  text-align: justify;
+}
+
+.jurusan {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tahun {
+  font-size: 1rem;
+  color: rgb(144, 144, 144);
+}
+
+.progress {
+  width: 90%;
+}
+
+.pkiri,
+.pkanan {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 1s;
 }
 
 .pkanan {
-    transform: translate(50px, 0) rotate(-15deg);
+  transform: translate(50px, 0) rotate(-15deg);
 }
 
-.pkiri.pMuncul, .pkanan.pMuncul {
-    opacity: 1;
-    transform: translate(0,0);
+.pkiri.pMuncul,
+.pkanan.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
 }
+/* AKHIR ABOUT */
 
+/* PORTFOLIO */
 .portfolio .thumbnail {
-    opacity: 0;
-    transform: translate(0, -40px);
-    transition: .5s;
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 0.5s;
 }
 
 .portfolio .thumbnail.muncul {
-    opacity: 1;
-    transform: translate(0,0);
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 .portfolio {
-    /* background-color: #eee; */
-    min-height: 1225px;
-    padding-top: 1em;
-    padding-bottom: 2em;
+  /* background-color: #eee; */
+  min-height: 1225px;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 .portfolio a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .portfolio .caption {
-    height: 50px;
+  height: 50px;
 }
 
 .portfolio .caption p {
-    font-size: 15px;
-    font-family: arial, sans-serif;
-    text-align: center;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  text-align: center;
 }
+/* AKHIR PORTFOLIO */
 
+/* CONTACT */
 .contact {
-    min-height: 800px;
-    padding-top: 1em;
-    background-color: #eee;
-
+  min-height: 800px;
+  padding-top: 1em;
+  background-color: #eee;
 }
+/* AKHIR CONTACT */
 
+/* FOOTER */
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 120px;
-    background-color: #333;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #333;
 }
-
 
 /* footer
 {
@@ -143,75 +177,87 @@ footer {
     padding-bottom: 0;
 } */
 
-.social { 
-    padding: 1em 20px 0 20px;
+.social {
+  padding: 1em 20px 0 20px;
 }
 /* padding 4--> atas,kanan,bawah,kiri
    padding 2--> pertama(atas,bawah) kedua(kanan,kiri) 
 */
 
 ul.social li {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul.social li a {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: url("../img/img-sprite.png") no-repeat 0px 0px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("../img/img-sprite.png") no-repeat 0px 0px;
 }
 ul.social li a.facebook {
-    background-position: 0px 0px;
+  background-position: 0px 0px;
 }
 ul.social li a.facebook:hover {
-    background-position: 0px -50px;
+  background-position: 0px -50px;
 }
 ul.social li a.twitter {
-    background-position: -50px 0px;
+  background-position: -50px 0px;
 }
 ul.social li a.twitter:hover {
-    background-position: -50px -50px;
+  background-position: -50px -50px;
 }
 ul.social li a.googleplus {
-    background-position: -100px 0px;
+  background-position: -100px 0px;
 }
 ul.social li a.googleplus:hover {
-    background-position: -100px -50px;
+  background-position: -100px -50px;
 }
 ul.social li a.instagram {
-    background-position: -150px 0px;
+  background-position: -150px 0px;
 }
 ul.social li a.instagram:hover {
-    background-position: -150px -50px;
+  background-position: -150px -50px;
 }
 ul.social li a.youtube {
-    background-position: -200px 0px;
+  background-position: -200px 0px;
 }
 ul.social li a.youtube:hover {
-    background-position: -200px -50px;
+  background-position: -200px -50px;
 }
 ul.social li a.itunes {
-    background-position: -250px 0px;
+  background-position: -250px 0px;
 }
 ul.social li a.itunes:hover {
-    background-position: -250px -50px;
+  background-position: -250px -50px;
 }
 
-.copyright
-{
-    color: #f7f7fc;
-    text-align: center;
-    text-decoration: none;
-    font: 18px/15px 'oswaldlight', 'Arial Narrow', arial, sans-serif;
+.copyright {
+  color: #f7f7fc;
+  text-align: center;
+  text-decoration: none;
+  font: 18px/15px "oswaldlight", "Arial Narrow", arial, sans-serif;
 }
-
 
 .copyright a {
-    color: #7276e9;
+  color: #7276e9;
 }
 
-.copyright a:hover
-{
-	color: #fff;
-    text-decoration: none;
+.copyright a:hover {
+  color: #fff;
+  text-decoration: none;
 }
+/* AKHIR FOOTER */
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  .garisver {
+    border-right: 1px grey solid;
+    height: 1550px;
+    width: 0px;
+  }
+
+  .pengalaman {
+    padding-left: 1.5em;
+  }
+}
+/* AKHIR DESKTOP */
