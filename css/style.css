@@ -60,9 +60,9 @@ hr {
 
 /* ABOUT */
 .about {
-  min-height: 400px;
+  min-height: 1650px;
   margin-top: 0;
-  padding-top: 1em;
+  padding-top: 5rem;
   background-color: #eee;
 }
 
@@ -82,15 +82,25 @@ hr {
 
 .profil {
   text-align: justify;
+  font-size: 16px;
 }
 
 .jurusan {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.namasekolah {
   font-size: 18px;
   font-weight: 400;
 }
 
+.garisatas {
+  border-top: 1px solid rgb(144, 144, 144);
+}
+
 .tahun {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: rgb(144, 144, 144);
 }
 
@@ -131,7 +141,7 @@ hr {
 .portfolio {
   /* background-color: #eee; */
   min-height: 1225px;
-  padding-top: 1em;
+  padding-top: 5rem;
   padding-bottom: 2em;
 }
 
@@ -153,7 +163,7 @@ hr {
 /* CONTACT */
 .contact {
   min-height: 800px;
-  padding-top: 1em;
+  padding-top: 5rem;
   background-color: #eee;
 }
 /* AKHIR CONTACT */
@@ -252,7 +262,7 @@ ul.social li a.itunes:hover {
 @media (min-width: 992px) {
   .garisver {
     border-right: 1px grey solid;
-    height: 1550px;
+    height: 1425px;
     width: 0px;
   }
 
